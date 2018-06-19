@@ -1,6 +1,5 @@
 build: 
 	rm -rf dist/
-	pipenv lock -r > requirements.txt
 	python setup.py sdist
 
 push_test:

@@ -21,8 +21,9 @@ setup(
     keywords=['methods', 'decorator'],
     license='Apache License, Version 2.0',
     long_description=LONG_DESCRIPTION,
+    long_description_content_type="text/markdown",
     name='decorate-all-methods',
     packages=setuptools.find_packages(),
     url='https://github.com/davegallant/decorate_all_methods',
-    version='0.0.1',
+    version='0.0.2',
 )
