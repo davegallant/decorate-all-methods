@@ -33,14 +33,6 @@ class MyClass(object):
 
 _Note: It is not necessary to exclude any methods._
 
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning.
-
-## License
-
-This project is licensed under the Apache License, Version 2.0.
-
 ## Acknowledgments
 
 * https://stackoverflow.com/a/6307868/1191286

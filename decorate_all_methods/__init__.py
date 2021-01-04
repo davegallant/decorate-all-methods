@@ -10,4 +10,5 @@ def decorate_all_methods(decorator, exclude=None):
             if callable(getattr(cls, attr)) and attr not in exclude:
                 setattr(cls, attr, decorator(getattr(cls, attr)))
         return cls
+
     return decorate
